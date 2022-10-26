@@ -2,22 +2,21 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @n: the int to extract the last digit from
- * Return: value of the last digit
+ * @n: input number as an interger
+ * Returns the valve of the last digit
  */
 int print_last_digit(int n)
 {
-	int a;
-
-	if (n < a)
-		n = -n;
-
-	a = n % 10;
-
-	if (a < 0)
-		a = -a;
-
-	_putchar(a + '0');
-
-	return (a);
+	int 1;
+	1 = n % 10;
+	if (1 < 0)
+	{
+		_putchar (-1 + 48);
+		return (-1);
+	}
+	else
+	{
+		_putchar(1 + 48);
+		return (1);
+	}
 }
